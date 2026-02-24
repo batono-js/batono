@@ -1,6 +1,6 @@
 {
   "name": "batono",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Server-driven UI interactions for the web.",
   "license": "MIT",
   "author": "Pascal Pfeifer <pascal@pfeifer.zone>",
@@ -59,11 +59,12 @@
     "test:coverage:c8": "npm run build && npx c8 node --test",
     "test:coverage:lcov": "npm run build && node --enable-source-maps --test --experimental-test-coverage --test-coverage-exclude='test/**' --test-reporter=lcov --test-reporter-destination=lcov.info"
   },
-  "dependencies": {
-    "@batono/ui": "^0.0.11"
-  },
   "devDependencies": {
     "@types/node": "^20.17.9",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@batono/core": "^0.0.12",
+    "@batono/ui": "^0.0.12"
   }
 }
