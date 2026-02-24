@@ -1,6 +1,6 @@
 {
   "name": "batono",
-  "version": "0.0.13-alpha.1",
+  "version": "0.0.14-alpha.0",
   "description": "Server-driven UI interactions for the web.",
   "license": "MIT",
   "author": "Pascal Pfeifer <pascal@pfeifer.zone>",
@@ -65,7 +65,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@batono/core": "^0.0.13",
-    "@batono/ui": "^0.0.13"
+    "@batono/core": "alpha",
+    "@batono/ui": "alpha"
   }
 }
