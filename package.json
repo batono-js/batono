@@ -65,7 +65,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@batono/core": "alpha",
-    "@batono/ui": "alpha"
+    "@batono/core": ">=0.0.14-alpha",
+    "@batono/ui": ">=0.0.14-alpha"
   }
 }
