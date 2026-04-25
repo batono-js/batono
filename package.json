@@ -1,6 +1,6 @@
 {
   "name": "batono",
-  "version": "0.0.20-alpha.2",
+  "version": "0.0.30",
   "description": "Server-driven UI interactions for the web.",
   "license": "MIT",
   "author": "Pascal Pfeifer <pascal@pfeifer.zone>",
@@ -38,12 +38,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/batono.git"
+    "url": "git+https://github.com/batono-js/batono.git"
   },
   "bugs": {
-    "url": "https://github.com/batono-js/issues"
+    "url": "https://github.com/batono-js/batono/issues"
   },
-  "homepage": "https://github.com/batono#readme",
+  "homepage": "https://github.com/batono-js/batono",
   "engines": {
     "node": ">=18"
   },
@@ -65,7 +65,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@batono/core": ">=0.0.20-alpha",
+    "@batono/core": "^0.0.30",
     "@batono/ui": ">=0.0.20-alpha"
   }
 }
