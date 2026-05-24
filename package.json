@@ -1,6 +1,6 @@
 {
   "name": "batono",
-  "version": "0.0.30",
+  "version": "0.0.32",
   "description": "Server-driven UI interactions for the web.",
   "license": "MIT",
   "author": "Pascal Pfeifer <pascal@pfeifer.zone>",
@@ -49,7 +49,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "tag": "alpha"
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "prepublishOnly": "npm test",
@@ -65,7 +65,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@batono/core": "^0.0.30",
-    "@batono/ui": ">=0.0.20-alpha"
+    "@batono/core": "*",
+    "@batono/ui": "*"
   }
 }
